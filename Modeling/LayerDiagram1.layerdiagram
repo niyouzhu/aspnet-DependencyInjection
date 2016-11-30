@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="84efad5f-617e-40b7-970e-779c95091aba" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/LayerDesigner">
+  <layers>
+    <layer Id="fa0d54d2-313f-4882-b13f-33421fe7111e" name="Microsoft.Extensions.DependencyInjection">
+      <references>
+        <reference Id="9946f38d-75f8-459b-adbe-fdc8b420b3ce" name="Microsoft.Extensions.DependencyInjection">
+          <ArtifactNode Label="Microsoft.Extensions.DependencyInjection" Category="CodeSchema_Project" Id="(Assembly=../src/Microsoft.Extensions.DependencyInjection/Microsoft.Extensions.DependencyInjection.xproj)">
+            <Category Ref="File" />
+          </ArtifactNode>
+          <ExpandedNode Id="(Assembly=../artifacts/bin/Microsoft.Extensions.DependencyInjection.dll)" Label="Microsoft.Extensions.DependencyInjection.dll" Category="CodeSchema_Assembly">
+            <LinkCategory Ref="Produces" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="8f31e254-9040-4bc1-b44b-3574c2d2af1f" name="Microsoft.Extensions.DependencyInjection.Abstractions">
+      <references>
+        <reference Id="fd333089-0d25-4e35-affd-a24eced6b96d" name="Microsoft.Extensions.DependencyInjection.Abstractions">
+          <ArtifactNode Label="Microsoft.Extensions.DependencyInjection.Abstractions" Category="CodeSchema_Project" Id="(Assembly=../src/Microsoft.Extensions.DependencyInjection.Abstractions/Microsoft.Extensions.DependencyInjection.Abstractions.xproj)">
+            <Category Ref="File" />
+          </ArtifactNode>
+          <ExpandedNode Id="(Assembly=../artifacts/bin/Microsoft.Extensions.DependencyInjection.Abstractions.dll)" Label="Microsoft.Extensions.DependencyInjection.Abstractions.dll" Category="CodeSchema_Assembly">
+            <LinkCategory Ref="Produces" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="bf4cda24-d739-4cba-8d7a-726b992e212b" name="Microsoft.Extensions.DependencyInjection.Specification.Tests">
+      <references>
+        <reference Id="56519860-5e06-4331-942e-b8cb97bf004a" name="Microsoft.Extensions.DependencyInjection.Specification.Tests">
+          <ArtifactNode Label="Microsoft.Extensions.DependencyInjection.Specification.Tests" Category="CodeSchema_Project" Id="(Assembly=../src/Microsoft.Extensions.DependencyInjection.Specification.Tests/Microsoft.Extensions.DependencyInjection.Specification.Tests.xproj)">
+            <Category Ref="File" />
+          </ArtifactNode>
+          <ExpandedNode Id="(Assembly=../artifacts/bin/Microsoft.Extensions.DependencyInjection.Specification.Tests.dll)" Label="Microsoft.Extensions.DependencyInjection.Specification.Tests.dll" Category="CodeSchema_Assembly">
+            <LinkCategory Ref="Produces" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+  </layers>
+</layerModel>
